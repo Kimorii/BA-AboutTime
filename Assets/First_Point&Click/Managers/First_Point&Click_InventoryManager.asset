@@ -1,0 +1,1172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a2543a119f842959d20e84db3140dd, type: 3}
+  m_Name: First_Point&Click_InventoryManager
+  m_EditorClassIdentifier: 
+  items:
+  - label: Key
+    id: 0
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 67aca61d9c4b9d144b9092ae186839a6, type: 3}
+    activeTex: {fileID: 2800000, guid: 67aca61d9c4b9d144b9092ae186839a6, type: 3}
+    selectedTex: {fileID: 2800000, guid: 67aca61d9c4b9d144b9092ae186839a6, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 67aca61d9c4b9d144b9092ae186839a6, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Unlock
+      lineID: -1
+    hotspotPrefix2:
+      label: 
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: 75528f05622d4a44c8a37c6aaa75cfa6, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 835a380d688e01146bd701a2f35bf0e2, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 0}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: fa3ea1063ac6cbc4a93bd3b6667e285c, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Flask
+    id: 3
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 00ced6ac0a63f5a4a94a0b66d8432e39, type: 3}
+    activeTex: {fileID: 2800000, guid: 00ced6ac0a63f5a4a94a0b66d8432e39, type: 3}
+    selectedTex: {fileID: 2800000, guid: 00ced6ac0a63f5a4a94a0b66d8432e39, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 00ced6ac0a63f5a4a94a0b66d8432e39, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: 2b96da2762d6e424f9bff1946ba5356b, type: 2}
+    lookActionList: {fileID: 11400000, guid: 23951b272afecd94eb52fe8e5c35a3af, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: ef556c03347ce154ba36c58dc5e0ca14, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 0}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 9a9d607148accaf4e9da7801f165fb3b, type: 2}
+      idPlusOne: 1
+      combineID: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: 2e328abd441e3d546b18f79f6e48a26f, type: 2}
+      idPlusOne: 2
+      combineID: 5
+      disabledOnStart: 0
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: f46d0c0c100024748b156ae0e120ed1e, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Tape
+    id: 4
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 389d816243034c14cbd98cd20d2025ce, type: 3}
+    activeTex: {fileID: 2800000, guid: 389d816243034c14cbd98cd20d2025ce, type: 3}
+    selectedTex: {fileID: 2800000, guid: 389d816243034c14cbd98cd20d2025ce, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 389d816243034c14cbd98cd20d2025ce, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 0}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: efe7c4eb6e850dc408c7af3c49bfe23a, type: 2}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: 7e7d6025f059e7b4286cde6dc85f69f0, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 11400000, guid: 7460573fa85c28d4eadafd778c4da045, type: 2}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: '*Thing 1* (dirty)'
+    id: 5
+    altLabel: Dirty metal plate
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 1a887a077e9c0ae4cab473c20ef43452, type: 3}
+    activeTex: {fileID: 2800000, guid: 1a887a077e9c0ae4cab473c20ef43452, type: 3}
+    selectedTex: {fileID: 2800000, guid: 1a887a077e9c0ae4cab473c20ef43452, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 1a887a077e9c0ae4cab473c20ef43452, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 0}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: 88e6a18c4aff5b34fadc79256cb4447a, type: 2}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 306fbb6841b8709418c5b08c7a9366d6, type: 2}
+      idPlusOne: 1
+      combineID: 10
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: d81182eea740d1e429bf27714b4ec971, type: 2}
+      idPlusOne: 2
+      combineID: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: 2e328abd441e3d546b18f79f6e48a26f, type: 2}
+      idPlusOne: 3
+      combineID: 3
+      disabledOnStart: 0
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: 68bfbfffedea15c408e1e29e2119a7eb, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: '*Thing 1* (clean)'
+    id: 8
+    altLabel: Clean metal plate
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: ff7c02563a57ef1418755089094cf7fb, type: 3}
+    activeTex: {fileID: 2800000, guid: ff7c02563a57ef1418755089094cf7fb, type: 3}
+    selectedTex: {fileID: 2800000, guid: ff7c02563a57ef1418755089094cf7fb, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: ff7c02563a57ef1418755089094cf7fb, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 71720e6ea19d7e04b98058e654441adb, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 0}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: 3bb3972aab89af04aa9bec8e9c44c6d3, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: '*Thing 2*'
+    id: 6
+    altLabel: Metal plate
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 725ceb3a2b551ae44a72772b2830de03, type: 3}
+    activeTex: {fileID: 2800000, guid: 725ceb3a2b551ae44a72772b2830de03, type: 3}
+    selectedTex: {fileID: 2800000, guid: 725ceb3a2b551ae44a72772b2830de03, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 725ceb3a2b551ae44a72772b2830de03, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 0618863caf389d34b8407bfe53a2a235, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 0}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: 3bb3972aab89af04aa9bec8e9c44c6d3, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Hollow Book
+    id: 9
+    altLabel: Suspicious Book
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 4281220de96b18244a9662f5cdb1177e, type: 3}
+    activeTex: {fileID: 2800000, guid: 4281220de96b18244a9662f5cdb1177e, type: 3}
+    selectedTex: {fileID: 2800000, guid: 4281220de96b18244a9662f5cdb1177e, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 4281220de96b18244a9662f5cdb1177e, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: 7559374236f05a544bd42241bf1337ab, type: 2}
+    lookActionList: {fileID: 11400000, guid: 253a4926a66dacf40bcab8813ef32f7b, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 7ad3d461ca400964f943adbf569027fc, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: 862ee52ff157e9146bb729d981440bc9, type: 2}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Carpet piece
+    id: 2
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 4f3adcc9b68500e4b97a82e3d1fe0974, type: 3}
+    activeTex: {fileID: 2800000, guid: 4f3adcc9b68500e4b97a82e3d1fe0974, type: 3}
+    selectedTex: {fileID: 2800000, guid: 4f3adcc9b68500e4b97a82e3d1fe0974, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 4f3adcc9b68500e4b97a82e3d1fe0974, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 0}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: 5a1af24baf9ceaa4e94268feff51dfed, type: 2}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 9a9d607148accaf4e9da7801f165fb3b, type: 2}
+      idPlusOne: 1
+      combineID: 3
+      disabledOnStart: 0
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Soaked carpet piece
+    id: 10
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
+    activeTex: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
+    selectedTex: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 511c0ec546d70b942a3b8d2b0241e08b, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 0}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 306fbb6841b8709418c5b08c7a9366d6, type: 2}
+      idPlusOne: 1
+      combineID: 5
+      disabledOnStart: 0
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: b148eac61084b414fa55b2b1ba8ef3b6, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Crowbar
+    id: 1
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 8e2eee0f2bb4d68438b18df0c9d37cbf, type: 3}
+    activeTex: {fileID: 2800000, guid: 8e2eee0f2bb4d68438b18df0c9d37cbf, type: 3}
+    selectedTex: {fileID: 2800000, guid: 8e2eee0f2bb4d68438b18df0c9d37cbf, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 8e2eee0f2bb4d68438b18df0c9d37cbf, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 821abb0ab34b4d84c8036aab08cafceb, type: 2}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    - actionList: {fileID: 0}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 11400000, guid: fd7ed86c610c770449c708629eda7617, type: 2}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Taped up lamp cord
+    id: 11
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 1
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 03ac9fee9acd16b489801aed4b4cc781, type: 3}
+    activeTex: {fileID: 2800000, guid: 03ac9fee9acd16b489801aed4b4cc781, type: 3}
+    selectedTex: {fileID: 2800000, guid: 03ac9fee9acd16b489801aed4b4cc781, type: 3}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 03ac9fee9acd16b489801aed4b4cc781, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 1
+    hotspotPrefix1:
+      label: Plug
+      lineID: -1
+    hotspotPrefix2:
+      label: into
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions:
+    - actionList: {fileID: 0}
+      idPlusOne: 1
+      icon:
+        texture: {fileID: 2800000, guid: 961872a153e289e48b55820b557e3428, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.122
+        - 0.824
+        - 0.52
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Use
+        lineID: -1
+        id: 0
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: 6a0ee3737fa3c0744b9496ec675a4029, type: 2}
+      idPlusOne: 2
+      icon:
+        texture: {fileID: 2800000, guid: 82d10b612da4ef6498a86cb435f6ab51, type: 3}
+        isAnimated: 1
+        numFrames: 3
+        numRows: 1
+        numCols: 3
+        size: 0
+        animSpeed: 8
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds:
+        - 0.134
+        - 0.789
+        - 0.933
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Look at
+        lineID: -1
+        id: 2
+      disabledOnStart: 0
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  bins: []
+  invVars: []
+  unhandledCombine: {fileID: 11400000, guid: b036440d4c51e684aa8e15ae1e254852, type: 2}
+  unhandledHotspot: {fileID: 11400000, guid: 7a7c3fa351f42024c89aaead9906d19d, type: 2}
+  passUnhandledHotspotAsParameter: 1
+  unhandledGive: {fileID: 0}
+  recipes: []
+  documents: []
+  objectives: []
+  objectiveStateActiveLabel:
+    label: Active
+    lineID: -1
+  objectiveStateCompleteLabel:
+    label: Complete
+    lineID: -1
+  objectiveStateFailLabel:
+    label: Fail
+    lineID: -1

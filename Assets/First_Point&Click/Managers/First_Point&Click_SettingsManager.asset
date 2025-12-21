@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b776810ebfa374d7ba8f0fb5ed6e3265, type: 3}
+  m_Name: First_Point&Click_SettingsManager
+  m_EditorClassIdentifier: 
+  separateEditorSaveFiles: 0
+  saveFileName: First_PointAndClick
+  saveTimeDisplay: 0
+  customSaveFormat: MMMM dd, yyyy
+  takeSaveScreenshots: 0
+  screenshotRenderTexture: {fileID: 0}
+  saveScreenshots: 0
+  screenshotResolutionFactor: 1
+  useProfiles: 0
+  maxSaves: 0
+  orderSavesByUpdateTime: 0
+  reloadSceneWhenLoading: 0
+  saveWithThreading: 0
+  saveCompression: 0
+  saveAssetReferencesWithAddressables: 0
+  saveLabels:
+    defaultSaveLabel: Save
+    saveLabelID: -1
+    defaultImportLabel: Import
+    importLabelID: -1
+    defaultAutosaveLabel: Autosave
+    autosaveLabelID: -1
+  referenceScenesInSave: 1
+  useInvariantCulture: 1
+  sceneAttributes: []
+  actionListOnStart: {fileID: 11400000, guid: 20a55a29143d8b945b30f5ea5d33a7b4, type: 2}
+  blackOutWhenSkipping: 0
+  events:
+  - rid: 7706273764759306240
+  - rid: 496071322880966656
+  - rid: 496071778176598016
+  - rid: 496071778176598017
+  - rid: 1026579383349411840
+  savePlayerReferencesWithAddressables: 0
+  playerSwitching: 1
+  legacyPlayer: {fileID: 0}
+  playerPrefab:
+    playerOb: {fileID: 3679401402006949639, guid: 160f3de817b2ce744ae134592fa00ac7, type: 3}
+    ID: 0
+    isDefault: 0
+    startingSceneIndex: 0
+    chooseSceneBy: 0
+    startingSceneName: 
+    useSceneDefaultPlayerStart: 0
+    startingPlayerStartID: 0
+  players: []
+  movementMethod: 0
+  inputMethod: 0
+  simulatedCursorMoveSpeed: 4
+  interactionMethod: 2
+  selectInteractions: 0
+  autoHideInteractionIcons: 1
+  cancelInteractions: 1
+  seeInteractions: 0
+  closeInteractionMenuIfTapHotspot: 1
+  stopPlayerOnClickHotspot: 1
+  cycleInventoryCursors: 0
+  scaleCursorSpeedWithScreen: 1
+  autoCycleWhenInteract: 0
+  showHoverInteractionInHotspotLabel: 0
+  allowDefaultinteractions: 0
+  alwaysCloseInteractionMenus: 1
+  whenReselectHotspot: 0
+  lockCursorOnStart: 0
+  hideLockedCursor: 0
+  disableFreeAimWhenDragging: 0
+  disableFreeAimWhenDraggingPickUp: 0
+  runConversationsWithKeys: 1
+  clickUpInteractions: 1
+  clickUpHotspots: 0
+  defaultMouseClicks: 1
+  allowGameplayDuringConversations: 0
+  walkToHotspotMarkers: 1
+  dragThreshold: 0
+  maxInventorySlots: 6
+  shareInventory: 0
+  inventoryDragDrop: 0
+  dragDropThreshold: 0
+  allowInventoryInteractionsDuringConversations: 0
+  inventoryDropLook: 1
+  inventoryDropLookNoDrag: 0
+  inventoryInteractions: 0
+  inventoryDisableLeft: 1
+  leftClickDeselect: 2
+  allowDefaultInventoryInteractions: 0
+  inventoryDisableUnhandled: 0
+  inventoryDisableDefined: 1
+  inventoryInteractionsHaltPlayer: 1
+  activeWhenHover: 0
+  inventoryActiveEffect: 2
+  inventoryPulseSpeed: 1
+  activeWhenUnhandled: 1
+  canReorderItems: 0
+  selectInventoryDisplay: 1
+  rightClickInventory: 0
+  reverseInventoryCombinations: 0
+  canMoveWhenActive: 1
+  selectInvWithUnhandled: 1
+  selectInvWithIconID: 0
+  giveInvWithUnhandled: 0
+  giveInvWithIconID: 0
+  autoDisableUnhandledHotspots: 0
+  autoToggleGiveMode: 1
+  clickPrefab: {fileID: 0}
+  showClickPrefabWithStraightToCursorHeld: 0
+  clickMarkerPosition: 0
+  walkableClickRange: 1
+  navMeshSearchDirection: 1
+  ignoreOffScreenNavMesh: 1
+  doubleClickMovement: 0
+  magnitudeAffectsDirect: 0
+  directTurnsInstantly: 0
+  directTurnMode: 0
+  stopTurningWhenReleaseInput: 0
+  disableMovementWhenInterationMenusAreOpen: 0
+  directMovementType: 0
+  limitDirectMovement: 0
+  cameraLockSnapAngleThreshold: 5
+  directMovementPerspective: 0
+  destinationAccuracy: 0.921
+  experimentalAccuracy: 0
+  unityUIClicksAlwaysBlocks: 0
+  pathfindUpdateFrequency: 0
+  verticalReductionFactor: 0.7
+  rotationsAffectedByVerticalReduction: 1
+  alwaysPathfindInSpriteDirection: 0
+  singleTapStraight: 0
+  singleTapStraightPathfind: 0
+  clickHoldSeparationStraight: 0.3
+  useFPCamDuringConversations: 1
+  onlyInteractWhenCursorUnlocked: 0
+  freeAimSmoothSpeed: 50
+  firstPersonMovementSmoothing: 1
+  assumeInputsDefined: 0
+  activeInputs:
+  - label: Pause game
+    ID: 1
+    inputName: Menu
+    enabledOnStart: 1
+    gameState: 0
+    gameStateFlags: 7
+    actionListAsset: {fileID: 11400000, guid: 3d324c5ee83f24146914df030199fa85, type: 2}
+    inputType: 0
+    axisThreshold: 0.2
+    buttonType: 0
+    hasUpgraded: 1
+  surfaces:
+  - ID: 0
+    label: Default (wood)
+    walkSounds:
+    - {fileID: 8300000, guid: 8e001351cd7065543a068386cde4c960, type: 3}
+    - {fileID: 8300000, guid: c41fb169b2991c247a5466e00faa6639, type: 3}
+    - {fileID: 8300000, guid: 76c66b3ae15685a45a334b0628d1edd1, type: 3}
+    - {fileID: 8300000, guid: cb9aa4db4b3a12147bf2fe3d88fee270, type: 3}
+    - {fileID: 8300000, guid: 2e832dbb2c7c9ba4e97fd3005fe850b7, type: 3}
+    runSounds:
+    - {fileID: 8300000, guid: 505a015d5525e0442ae4a62d5bac304d, type: 3}
+    - {fileID: 8300000, guid: 7ffe843b3b9c8d14792d912d39646105, type: 3}
+    - {fileID: 8300000, guid: 2802b1a72217c464ea0171ad67e835f7, type: 3}
+    - {fileID: 8300000, guid: 88da42c7018c0fa41870ccf17d13da9c, type: 3}
+    - {fileID: 8300000, guid: 8b4e405a508185e428652ccc26469d53, type: 3}
+  - ID: 1
+    label: Carpet
+    walkSounds:
+    - {fileID: 8300000, guid: c686de1ed7da9444cb21bc72df4a2ece, type: 3}
+    - {fileID: 8300000, guid: 7e706948119bb1e4ba9cda67bf563564, type: 3}
+    - {fileID: 8300000, guid: e6927ed9eea578d46a1e77ee7e335da6, type: 3}
+    - {fileID: 8300000, guid: 8ca42597240bcf949b99f361a8d58c32, type: 3}
+    runSounds: []
+  freeAimTouchSpeed: 0.01
+  dragWalkThreshold: 5
+  dragRunThreshold: 20
+  drawDragLine: 0
+  dragLineWidth: 3
+  dragLineColor: {r: 1, g: 1, b: 1, a: 1}
+  offsetTouchCursor: 0
+  touchScreenHotspotInput: 1
+  firstPersonTouchScreen: 1
+  directTouchScreen: 0
+  touchUpWhenPaused: 0
+  touchUpInteractScene: 0
+  forceAspectRatio: 0
+  aspectRatioEnforcement: 0
+  wantedAspectRatio: 1.5
+  maxAspectRatio: 2.39
+  renderBorderCamera: 1
+  landscapeModeOnly: 1
+  cameraPerspective: 0
+  cacheCameraMain: 0
+  linearColorTextures: 0
+  movingTurning: 3
+  hotspotDetection: 0
+  closeInteractionMenusIfPlayerLeavesVicinity: 0
+  placeDistantHotspotsOnSeparateLayer: 1
+  cursorMustBeOverNearestHotspot: 0
+  hotspotsInVicinity: 0
+  highlightAllHotspotsInVicinity: 1
+  hotspotIconDisplay: 2
+  hotspotIcon: 1
+  hotspotIconTexture: {fileID: 0}
+  hotspotIconGraphic:
+    texture: {fileID: 2800000, guid: cc3fa24605c3c4b0081ccfc43043abf8, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.04
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+  highlightMaterialPropertyOverride: 
+  hotspotIconSize: 0.04
+  playerFacesHotspots: 0
+  onlyFaceHotspotOnSelect: 0
+  scaleHighlightWithMouseProximity: 0
+  highlightProximityFactor: 4
+  occludeIcons: 0
+  hideIconUnderInteractionMenu: 1
+  hotspotDrawing: 0
+  hideUnhandledHotspots: 0
+  selectLowestOverlappingHotspot: 0
+  navMeshRaycastLength: 100
+  hotspotRaycastLength: 100
+  moveableRaycastLength: 30
+  hotspotLayer: Default
+  distantHotspotLayer: DistantHotspot
+  navMeshLayer: NavMesh
+  backgroundImageLayer: BackgroundImage
+  deactivatedLayer: Ignore Raycast
+  useLoadingScreen: 0
+  manualSceneActivation: 0
+  loadingSceneIs: 0
+  loadScenesFromAddressable: 0
+  loadingSceneName: 
+  loadingScene: 0
+  useAsyncLoading: 0
+  loadingDelay: 0
+  blackOutWhenInitialising: 0
+  spawnPersistentEnginePrefab: 1
+  autoCallUnloadUnusedAssets: 1
+  playMusicWhilePaused: 1
+  playAmbienceWhilePaused: 0
+  musicStorages:
+  - ID: 0
+    label: (Title Screen Music)
+    audioClip: {fileID: 8300000, guid: 09de4ae8b2183474db7ab98708d07250, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 1
+    label: (OnStart_Bedroom)
+    audioClip: {fileID: 8300000, guid: 937e8b7f949e34f4496a1d496c75cf3e, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 2
+    label: (OnStart_Hallway)
+    audioClip: {fileID: 8300000, guid: 15c4292ce39a3fd44a129828d89fd429, type: 3}
+    relativeVolume: 0.8
+    overrideMixerGroup: {fileID: 0}
+  - ID: 3
+    label: (OnStart_Myst.Door)
+    audioClip: {fileID: 8300000, guid: b2640994297419d49a33692783b5ab51, type: 3}
+    relativeVolume: 0.8
+    overrideMixerGroup: {fileID: 0}
+  - ID: 4
+    label: (ENDING)
+    audioClip: {fileID: 8300000, guid: 9898beef4edd54ee58d263cec6ef1795, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  ambienceStorages: []
+  loadAmbienceFadeTime: 0
+  crossfadeAmbienceWhenLoading: 0
+  restartAmbienceTrackWhenLoading: 0
+  loadMusicFadeTime: 0.34
+  crossfadeMusicWhenLoading: 0
+  restartMusicTrackWhenLoading: 1
+  autoEndOtherMusicWhenPlayed: 1
+  musicPrefabOverride: {fileID: 0}
+  ambiencePrefabOverride: {fileID: 0}
+  volumeControl: 0
+  musicMixerGroup: {fileID: 0}
+  sfxMixerGroup: {fileID: 0}
+  speechMixerGroup: {fileID: 0}
+  musicAttentuationParameter: musicVolume
+  sfxAttentuationParameter: sfxVolume
+  speechAttentuationParameter: speechVolume
+  defaultLanguage: 0
+  defaultVoiceLanguage: 0
+  defaultShowSubtitles: 1
+  defaultSfxVolume: 0.852
+  defaultMusicVolume: 0.6
+  defaultSpeechVolume: 1
+  showDebugLogs: 0
+  printActionCommentsInConsole: 0
+  actionCommentLogging: 0
+  showActiveActionLists: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 496071322880966656
+      type: {class: EventInventoryAddRemove, ns: AC, asm: AC}
+      data:
+        label: 
+        id: 1
+        cutscene: {fileID: 0}
+        actionListAsset: {fileID: 11400000, guid: dd7accd5b61a80f4793302dc53402847, type: 2}
+        parameterIDs: 0000000001000000
+        addRemove: 0
+        itemID: -1
+    - rid: 496071778176598016
+      type: {class: EventMenuHover, ns: AC, asm: AC}
+      data:
+        label: 
+        id: 2
+        cutscene: {fileID: 0}
+        actionListAsset: {fileID: 11400000, guid: ce415761d08b4d5449644d25b9756515, type: 2}
+        parameterIDs: 000000000100000002000000
+        menuName: 
+        elementName: 
+    - rid: 496071778176598017
+      type: {class: EventMenuClick, ns: AC, asm: AC}
+      data:
+        label: 
+        id: 3
+        cutscene: {fileID: 0}
+        actionListAsset: {fileID: 11400000, guid: 85643375b05e21b4e9438ee7361a1386, type: 2}
+        parameterIDs: 000000000100000002000000
+        menuName: 
+        elementName: 
+    - rid: 1026579383349411840
+      type: {class: EventInventorySelect, ns: AC, asm: AC}
+      data:
+        label: 
+        id: 4
+        cutscene: {fileID: 0}
+        actionListAsset: {fileID: 11400000, guid: 79629c386713dcc479a3b8e1447ebf43, type: 2}
+        parameterIDs: 00000000
+        selectDeselect: 0
+        itemID: -1
+    - rid: 7706273764759306240
+      type: {class: EventBeginGame, ns: AC, asm: AC}
+      data:
+        label: Apply graphic options
+        id: 0
+        cutscene: {fileID: 0}
+        actionListAsset: {fileID: 11400000, guid: fb42e1dfa71185c4dbf49eb813c79442, type: 2}
+        parameterIDs: 
