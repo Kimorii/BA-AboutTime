@@ -146,7 +146,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 3
+    skipAction: 4
     skipActionActual: {fileID: 159483065}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -156,7 +156,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 418
+    y: 659
     width: 300
     height: 232
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -238,7 +238,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 7
+    skipAction: 8
     skipActionActual: {fileID: 516835035}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -248,7 +248,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 983
+    y: 1224
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -393,7 +393,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 6
+    skipAction: 7
     skipActionActual: {fileID: 54069875}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -403,7 +403,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 680
+    y: 921
     width: 300
     height: 273
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -692,6 +692,50 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &253198069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 253198071}
+  - component: {fileID: 253198070}
+  m_Layer: 0
+  m_Name: GameplayTimer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &253198070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253198069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc584dfdf6f8741851e7105ba22c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &253198071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253198069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.75080943, y: 1.1616291, z: -0.11062538}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &516835035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +770,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1185
+    y: 1426
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -769,7 +813,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 1
+    skipAction: 2
     skipActionActual: {fileID: 1794898898}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -779,7 +823,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 255
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1099,7 +1143,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 2
+    skipAction: 3
     skipActionActual: {fileID: 15322700}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -1109,7 +1153,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 236
+    y: 477
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1258,6 +1302,66 @@ MonoBehaviour:
     jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":176.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1826764668_0},"groupID":0,"changeType":0,"removeJournalPageMethod":0,"menuToChange":"Title","menuToChangeParameterID":-1,"elementToChange":"","elementToChangeParameterID":-1,"journalText":"","onlyAddNewJournal":false,"pageTexture":{"instanceID":0},"doFade":true,"lineID":-1,"journalPageIndex":-1,"journalPageIndexParameterID":-1,"preprocessTextTokens":false}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
+--- !u!114 &1977808975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee606cf6f21b4a7f98958d38261139e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 930930827}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 211
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8199727452915620624}
+  groupID: 0
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6317137775485378730, guid: 86e3bdceb6aa1fa419e25ad78cbe8f59, type: 3}
+        m_TargetAssemblyTypeName: GameplayTimer2, AC
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  skipEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  ignoreWhenSkipping: 0
 --- !u!1 &2016774298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,6 +2164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 1977808975}
   - {fileID: 930930827}
   - {fileID: 1794898898}
   - {fileID: 15322700}
@@ -2149,3 +2254,4 @@ SceneRoots:
   - {fileID: 341686095620747678}
   - {fileID: 5030195714074801391}
   - {fileID: 2016774301}
+  - {fileID: 253198071}

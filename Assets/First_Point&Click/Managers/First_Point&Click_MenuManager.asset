@@ -440,7 +440,7 @@ MonoBehaviour:
   canClickInCutscene: 0
   enabledOnStart: 0
   actionListOnTurnOn: {fileID: 11400000, guid: 5e010765c5417cd4483d5fdcb9b236b0, type: 2}
-  actionListOnTurnOff: {fileID: 0}
+  actionListOnTurnOff: {fileID: 11400000, guid: 62f38f9d36cad68489d76f58fe09efb7, type: 2}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
   useTextMeshProComponents: 0
@@ -971,7 +971,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiDropdownTMP: {fileID: 0}
-  uiDropdown: {fileID: 4989430805205870444, guid: 0b250d1e3e115f642b7db60a38d7ff57, type: 3}
+  uiDropdown: {fileID: 0}
   actionListOnClick: {fileID: 0}
   label: Cycle
   labelSuffix: ' : '
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   numSlots: 1
   uiTextTMP: {fileID: 0}
   hideScrollingCharacters: 0
-  uiText: {fileID: 202018792815315941, guid: 0b250d1e3e115f642b7db60a38d7ff57, type: 3}
+  uiText: {fileID: 0}
   _label: Texture quality
   anchor: 4
   textEffects: 0
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
-  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOn: {fileID: 11400000, guid: 00e694b8233a8ad4ca096747acdade0d, type: 2}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
@@ -1369,8 +1369,8 @@ MonoBehaviour:
   backgroundTexture: {fileID: 0}
   visibleElements:
   - {fileID: -5741210523869060949}
-  - {fileID: 5310886906881985664}
   - {fileID: -3196159995437802370}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 0
   speechMenuType: 0
@@ -1384,7 +1384,6 @@ MonoBehaviour:
   firstSelectedElement: 
   elements:
   - {fileID: -5741210523869060949}
-  - {fileID: 5310886906881985664}
   - {fileID: -3196159995437802370}
   spacing: 0.5
   sizeType: 0
@@ -1997,7 +1996,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 0
-  actionList: {fileID: 11400000, guid: e623715f554174749a173590a23f7822, type: 2}
+  actionList: {fileID: 0}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -2090,8 +2089,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  title: Label
-  slotSize: {x: 50.373833, y: 4.464973}
+  title: EndText
+  slotSize: {x: 50.373833, y: 3.5411856}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2119,7 +2118,7 @@ MonoBehaviour:
     x: 2.675
     y: 2.675
     width: 269.5
-    height: 57.999996
+    height: 46
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiTextTMP: {fileID: 0}
@@ -3085,7 +3084,7 @@ MonoBehaviour:
   numSlots: 1
   uiTextTMP: {fileID: 0}
   hideScrollingCharacters: 0
-  uiText: {fileID: 1381723500073277999, guid: 0b250d1e3e115f642b7db60a38d7ff57, type: 3}
+  uiText: {fileID: 0}
   _label: V Sync
   anchor: 4
   textEffects: 0
@@ -3148,7 +3147,7 @@ MonoBehaviour:
     height: 38.85
   relativePosition: {x: 0, y: 0}
   numSlots: 1
-  uiButton: {fileID: 5083274995986945713, guid: 470d403a0525b4a43be4af06a7304122, type: 3}
+  uiButton: {fileID: 0}
   uiPointerState: 0
   _label: Continue
   hotspotLabel: 
@@ -3433,6 +3432,108 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &-3084227831298372897
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSource: 1
+  canvas: {fileID: 7937937190919396279, guid: 06e977c3466bf7642bd53d81cc133369, type: 3}
+  canvasAssetKey: 
+  canvasID: 0
+  rectTransform: {fileID: 7173445343662809168, guid: 34e8bd5484e90154ba3bb09245d022c4, type: 3}
+  rectTransformID: 182722
+  uiTransitionType: 0
+  uiPositionType: 0
+  _isLocked: 0
+  id: 22
+  title: Your Time
+  manualSize: {x: 0, y: 0}
+  positionType: 0
+  manualPosition: {x: 0, y: 0}
+  positionSmoothing: 0
+  alignment: 4
+  toggleKey: 
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 0
+  showWhenPaused: 0
+  canClickInCutscene: 0
+  enabledOnStart: 0
+  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOff: {fileID: 0}
+  updateWhenFadeOut: 1
+  hideDuringSaveScreenshots: 1
+  useTextMeshProComponents: 1
+  fitWithinScreen: 1
+  backgroundTexture: {fileID: 0}
+  visibleElements:
+  - {fileID: 4702127903302488032}
+  transitionProgress: 0
+  appearType: 0
+  speechMenuType: 0
+  speechMenuLimit: 0
+  limitToCharacters: 
+  forceSubtitles: 0
+  moveWithCharacter: 1
+  selected_element: {fileID: 0}
+  selected_slot: 0
+  autoSelectFirstVisibleElement: 0
+  firstSelectedElement: 
+  elements:
+  - {fileID: 4702127903302488032}
+  spacing: 0.5
+  sizeType: 0
+  autoSizeEveryFrame: 0
+  orientation: 1
+  transitionType: 4
+  panDirection: 0
+  panMovement: 0
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panDistance: 0.5
+  fadeSpeed: 0
+  zoomAnchor: 4
+  zoomElements: 0
+  oneMenuPerSpeech: 0
+  speechProximityLimit: 0
+  speechProximityDistance: 10
+  deleteUIWhenTurnOff: 0
+  biggestElementSize: {x: 0, y: 0}
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &-2948552955453754452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5167,6 +5268,7 @@ MonoBehaviour:
   - {fileID: -5655486304195099752}
   - {fileID: -6892077855403737431}
   - {fileID: -4869383386317935927}
+  - {fileID: -3084227831298372897}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -5805,7 +5907,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiDropdownTMP: {fileID: 0}
-  uiDropdown: {fileID: 3377809982968561684, guid: 0b250d1e3e115f642b7db60a38d7ff57, type: 3}
+  uiDropdown: {fileID: 0}
   actionListOnClick: {fileID: 0}
   label: Cycle
   labelSuffix: ' : '
@@ -7187,7 +7289,7 @@ MonoBehaviour:
   numSlots: 1
   uiTextTMP: {fileID: 0}
   hideScrollingCharacters: 0
-  uiText: {fileID: 576220929040269697, guid: 0b250d1e3e115f642b7db60a38d7ff57, type: 3}
+  uiText: {fileID: 0}
   _label: Anti-aliasing
   anchor: 4
   textEffects: 0
@@ -7555,7 +7657,7 @@ MonoBehaviour:
   numSlots: 1
   uiTextTMP: {fileID: 0}
   hideScrollingCharacters: 0
-  uiText: {fileID: 1835740266511544837, guid: 470d403a0525b4a43be4af06a7304122, type: 3}
+  uiText: {fileID: 0}
   _label: First_Point&Click
   anchor: 4
   textEffects: 1
@@ -8163,6 +8265,71 @@ MonoBehaviour:
   selectedObjectiveLabelType: 0
   itemSlotNumber: 0
   uiComponentHideStyle: 0
+--- !u!114 &4702127903302488032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ae5c94351944600a4b0aec144476b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  title: Label
+  slotSize: {x: 10, y: 5}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 0
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 182722
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiTextTMP: {fileID: 4601558409146569333, guid: 34e8bd5484e90154ba3bb09245d022c4, type: 3}
+  hideScrollingCharacters: 0
+  uiText: {fileID: 4441433185848461909, guid: 34e8bd5484e90154ba3bb09245d022c4, type: 3}
+  _label: 
+  anchor: 4
+  textEffects: 0
+  outlineSize: 2
+  effectColour: {r: 0, g: 0, b: 0, a: 1}
+  labelType: 0
+  variableID: 0
+  useCharacterColour: 0
+  autoAdjustHeight: 1
+  updateIfEmpty: 0
+  showPendingWhileMovingToHotspot: 0
+  itemPropertyID: 0
+  multiplyByItemCount: 0
+  inventoryPropertyType: 0
+  selectedObjectiveLabelType: 0
+  itemSlotNumber: 0
+  uiComponentHideStyle: 0
 --- !u!114 &4783152266909183101
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8489,59 +8656,6 @@ MonoBehaviour:
   selectedObjectiveLabelType: 0
   itemSlotNumber: 0
   uiComponentHideStyle: 0
---- !u!114 &5310886906881985664
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d436055bf45cc449f8d6b44707d81e5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  title: Timer
-  slotSize: {x: 0, y: 0.8852212}
-  sizeType: 0
-  positionType: 0
-  slotSpacing: 0
-  lineID: -1
-  alternativeInputButton: 
-  font: {fileID: 0}
-  fontScaleFactor: 2
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
-  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
-  isClickable: 0
-  orientation: 1
-  gridWidth: 3
-  backgroundTexture: {fileID: 0}
-  singleSlotBackgrounds: 0
-  highlightTexture: {fileID: 0}
-  hoverSound: {fileID: 0}
-  clickSound: {fileID: 0}
-  changeCursor: 0
-  cursorID: 0
-  linkedUiID: 0
-  maxAutoWidthFactor: 0.5
-  relativeRect:
-    serializedVersion: 2
-    x: 2.675
-    y: 77.025
-    width: 0
-    height: 11.499023
-  relativePosition: {x: 0, y: 0}
-  numSlots: 1
-  uiSlider: {fileID: 0}
-  doInvert: 0
-  timerTexture: {fileID: 0}
-  timerType: 4
-  timerID: 0
-  uiSelectableHideStyle: 0
-  smoothingFactor: 0
-  autoSetVisibility: 0
 --- !u!114 &5711742009586478784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8742,7 +8856,7 @@ MonoBehaviour:
   numSlots: 1
   uiTextTMP: {fileID: 0}
   hideScrollingCharacters: 0
-  uiText: {fileID: 3582486099135685324, guid: 0b250d1e3e115f642b7db60a38d7ff57, type: 3}
+  uiText: {fileID: 0}
   _label: Quality preset
   anchor: 4
   textEffects: 0
