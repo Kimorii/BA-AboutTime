@@ -516,7 +516,7 @@ MonoBehaviour:
   - label: InventoryOpened
     id: 25
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -556,7 +556,7 @@ MonoBehaviour:
   - label: MechSolved
     id: 27
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}

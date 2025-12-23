@@ -261,12 +261,12 @@ MonoBehaviour:
   - ID: 0
     label: (Title Screen Music)
     audioClip: {fileID: 8300000, guid: 09de4ae8b2183474db7ab98708d07250, type: 3}
-    relativeVolume: 0.175
+    relativeVolume: 0.299
     overrideMixerGroup: {fileID: 0}
   - ID: 1
     label: (OnStart_Bedroom)
     audioClip: {fileID: 8300000, guid: 937e8b7f949e34f4496a1d496c75cf3e, type: 3}
-    relativeVolume: 0.17
+    relativeVolume: 0.29
     overrideMixerGroup: {fileID: 0}
   - ID: 2
     label: (OnStart_Hallway)

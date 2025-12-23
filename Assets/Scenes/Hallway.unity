@@ -923,8 +923,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 49
-    y: 1588
+    x: 364
+    y: 1725
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4065,10 +4065,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 49
-    y: 936
+    x: 353
+    y: 860
     width: 300
-    height: 312
+    height: 332
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3026484281656944916}
@@ -4081,7 +4081,7 @@ MonoBehaviour:
   scaleDuration: 1
   doEulerRotation: 0
   clearExisting: 1
-  inWorldSpace: 0
+  inWorldSpace: 1
   copyMarkerPosition: 1
   copyMarkerRotation: 1
   copyMarkerScale: 1
@@ -4114,15 +4114,15 @@ MonoBehaviour:
   linkedProp: {fileID: 1319922487}
   setVectorMethod: 0
   newVectorParameterID: -1
-  newVector: {x: 0, y: 0, z: 15}
+  newVector: {x: 0, y: 0, z: 0}
   vectorVarParameterID: -1
   vectorVarID: 0
   variableLocation: 0
-  transitionTime: 0.5
+  transitionTime: 0.51
   transitionTimeParameterID: -1
   transformType: 1
   moveMethod: 3
-  toBy: 1
+  toBy: 0
   variables: {fileID: 0}
   variablesConstantID: 0
 --- !u!114 &329628631
@@ -4430,8 +4430,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 580
-    y: 45
+    x: 14
+    y: 284
     width: 300
     height: 160
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5229,7 +5229,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 16
   m_Sprite: {fileID: 21300000, guid: 00ced6ac0a63f5a4a94a0b66d8432e39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5500,58 +5500,6 @@ PolygonCollider2D:
       - {x: -0.31323597, y: -0.49215442}
       - {x: 0.5113035, y: -0.62132776}
   m_UseDelaunayMesh: 0
---- !u!114 &452956965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 49
-    y: 714
-    width: 300
-    height: 192
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3026484281656944916}
-  groupID: 0
-  constantID: 0
-  parameterID: -1
-  soundObject: {fileID: 1475055585693991612}
-  audioClip: {fileID: 0}
-  audioClipParameterID: -1
-  fadeTime: 0
-  loop: 0
-  ignoreIfPlaying: 0
-  soundAction: 0
-  affectChildren: 0
-  autoEndOtherMusicWhenPlayed: 1
 --- !u!114 &453373902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7206,8 +7154,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 49
-    y: 1278
+    x: 551
+    y: 1407
     width: 300
     height: 280
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7430,8 +7378,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 574
-    y: 437
+    x: 14
+    y: 676
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7717,6 +7665,58 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &632723638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 4
+    skipActionActual: {fileID: 589889285}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 575
+    y: 1153
+    width: 300
+    height: 212
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3026484281656944916}
+  groupID: 0
+  constantID: 0
+  parameterID: -1
+  soundObject: {fileID: 1475055585693991612}
+  audioClip: {fileID: 0}
+  audioClipParameterID: -1
+  fadeTime: 0
+  loop: 0
+  ignoreIfPlaying: 0
+  soundAction: 0
+  affectChildren: 0
+  autoEndOtherMusicWhenPlayed: 1
 --- !u!1 &637435701
 GameObject:
   m_ObjectHideFlags: 0
@@ -8227,8 +8227,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 580
-    y: 639
+    x: 14
+    y: 878
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10399,8 +10399,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 580
-    y: 235
+    x: 14
+    y: 474
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10452,7 +10452,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 2
-    skipActionActual: {fileID: 452956965}
+    skipActionActual: {fileID: 320106225}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -10460,8 +10460,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 49
-    y: 384
+    x: 364
+    y: 521
     width: 300
     height: 300
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11624,7 +11624,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: 5fb63c828998d4347bf9c2249028bbd1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12023,7 +12023,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 12
-    skipActionActual: {fileID: 1867516629}
+    skipActionActual: {fileID: 1204362478}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -12557,8 +12557,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 280
-    y: 234
+    x: 364
+    y: 284
     width: 300
     height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -15395,13 +15395,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319922484}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.1142299, w: 0.99345434}
+  m_LocalRotation: {x: 0, y: 0, z: -0.1331214, w: 0.9910998}
   m_LocalPosition: {x: -1.621, y: 1.176, z: 0}
   m_LocalScale: {x: 0.4494948, y: 0.4494948, z: 0.4494948}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1220494778}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15.3}
 --- !u!114 &1319922487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21002,10 +21002,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 930
-    y: 235
+    x: 85
+    y: 2153
     width: 300
-    height: 172
+    height: 172.26741
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3026484281656944916}
@@ -21264,61 +21264,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1867516629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 849
-    y: 2208
-    width: 300
-    height: 132
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  changeType: 4
-  removeJournalPageMethod: 0
-  menuToChange: Inventory
-  menuToChangeParameterID: -1
-  elementToChange: 
-  elementToChangeParameterID: -1
-  journalText: 
-  onlyAddNewJournal: 0
-  pageTexture: {fileID: 0}
-  doFade: 0
-  lineID: -1
-  journalPageIndex: -1
-  journalPageIndexParameterID: -1
-  preprocessTextTokens: 0
 --- !u!114 &1882195553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23243,8 +23188,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 49
-    y: 1810
+    x: 364
+    y: 1947
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -24405,7 +24350,7 @@ MonoBehaviour:
   hotspotName: Woman's portrait
   lineID: -1
   highlight: {fileID: 0}
-  walkToMarker: {fileID: 9211330433942999920}
+  walkToMarker: {fileID: 1458291916}
   centrePoint: {fileID: 0}
   centrePointOverrides: 0
   provideUseInteraction: 1
@@ -24574,13 +24519,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297988297280505392}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.10753486, w: 0.99420136}
+  m_LocalRotation: {x: -0, y: -0, z: -0.13904504, w: 0.99028605}
   m_LocalPosition: {x: -1.6, y: 1.154, z: 0}
   m_LocalScale: {x: 2.3436928, y: 2.8129551, z: 2.812955}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286854075}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -12.346}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15.985}
 --- !u!61 &297988297286505648
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25532,8 +25477,8 @@ Transform:
   m_GameObject: {fileID: 956928167080882458}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.78, y: -4.21, z: -10}
-  m_LocalScale: {x: 0.80846614, y: 0.9077515, z: 0.9077515}
+  m_LocalPosition: {x: 14.53, y: -4.24, z: -10}
+  m_LocalScale: {x: 0.686986, y: 0.77135277, z: 0.77135277}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1489499754}
@@ -25573,7 +25518,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.2240648
+  orthographic size: 2.699058
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -26143,7 +26088,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18.97, y: -0.23, z: 0}
-  m_LocalScale: {x: 1.5375, y: 1, z: 1}
+  m_LocalScale: {x: 1.7681249, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 717002448}
@@ -28174,7 +28119,7 @@ MonoBehaviour:
   hotspotName: Dead tree painting
   lineID: -1
   highlight: {fileID: 0}
-  walkToMarker: {fileID: 9211330433942999920}
+  walkToMarker: {fileID: 1458291916}
   centrePoint: {fileID: 0}
   centrePointOverrides: 0
   provideUseInteraction: 1
@@ -29205,8 +29150,8 @@ MonoBehaviour:
   actions:
   - {fileID: 775766151}
   - {fileID: 866529944}
-  - {fileID: 452956965}
   - {fileID: 320106225}
+  - {fileID: 632723638}
   - {fileID: 589889285}
   - {fileID: 65356448}
   - {fileID: 362303608}
@@ -33071,8 +33016,8 @@ Transform:
   m_GameObject: {fileID: 7079320917213357618}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.44, y: -4.22, z: 0}
-  m_LocalScale: {x: 2.3064384, y: 10.979532, z: 1}
+  m_LocalPosition: {x: -5.75, y: -5.1, z: 0}
+  m_LocalScale: {x: 5.361794, y: 10.979532, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 659425373}
@@ -35012,11 +34957,11 @@ SceneRoots:
   - {fileID: 255753280}
   - {fileID: 2852672080422070052}
   - {fileID: 1491187702}
+  - {fileID: 1738799054}
   - {fileID: 1454080}
   - {fileID: 393765935}
   - {fileID: 234297421}
   - {fileID: 791479373}
-  - {fileID: 1738799054}
   - {fileID: 1729827556}
   - {fileID: 2129528030}
   - {fileID: 1722301265}

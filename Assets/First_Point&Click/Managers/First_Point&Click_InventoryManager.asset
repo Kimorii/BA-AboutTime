@@ -136,7 +136,7 @@ MonoBehaviour:
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.035
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.05
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.05
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.08
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
@@ -1073,11 +1073,11 @@ MonoBehaviour:
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.09
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
-      clickOffset: {x: 0, y: 0}
+      clickOffset: {x: 0, y: -0.28}
       frameSpeeds: []
       alwaysAnimate: 0
       dontCycle: 0

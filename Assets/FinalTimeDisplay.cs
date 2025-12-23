@@ -9,6 +9,6 @@ public class FinalTimeDisplay : MonoBehaviour
 
     void Start()
     {
-      timeText.text = "Your Time: " + GameplayTimer.GetFormattedTime();
+     // timeText.text = "Your Time: " + GameplayTimer.GetFormattedTime();
     }
 }
