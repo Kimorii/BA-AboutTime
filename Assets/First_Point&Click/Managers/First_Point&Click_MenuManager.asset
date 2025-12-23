@@ -1872,9 +1872,7 @@ MonoBehaviour:
   - {fileID: 2156198154594616303}
   - {fileID: -5790970799966981835}
   - {fileID: -637356936795922887}
-  - {fileID: -1160736885226487701}
   - {fileID: -1975776481792777618}
-  - {fileID: -1529376430632855432}
   transitionProgress: 0
   appearType: 0
   speechMenuType: 0
@@ -2057,7 +2055,7 @@ MonoBehaviour:
     height: 30
   relativePosition: {x: 0, y: 0}
   numSlots: 1
-  uiSlider: {fileID: 0}
+  uiSlider: {fileID: 11400044, guid: cb97a981ee9bfa84f810fa2704c941be, type: 3}
   amount: 3
   minValue: 0
   maxValue: 1
@@ -2990,7 +2988,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 1
   gridWidth: 3
@@ -4274,7 +4272,6 @@ MonoBehaviour:
   visibleElements:
   - {fileID: 5711742009586478784}
   - {fileID: 980106248206741788}
-  - {fileID: -4069780561482712605}
   transitionProgress: 0
   appearType: 0
   speechMenuType: 0
@@ -4439,7 +4436,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 1
   gridWidth: 3
@@ -4652,7 +4649,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 1
   gridWidth: 3
@@ -4673,7 +4670,7 @@ MonoBehaviour:
     height: 30
   relativePosition: {x: 0, y: 0}
   numSlots: 1
-  uiButton: {fileID: 0}
+  uiButton: {fileID: 11400012, guid: cb97a981ee9bfa84f810fa2704c941be, type: 3}
   uiDropdownTMP: {fileID: 0}
   uiDropdown: {fileID: 0}
   actionListOnClick: {fileID: 0}

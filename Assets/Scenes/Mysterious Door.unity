@@ -26563,7 +26563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3679401402006949639, guid: 160f3de817b2ce744ae134592fa00ac7, type: 3}
       propertyPath: runAnimSprite
-      value: CharRun
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3679401402006949639, guid: 160f3de817b2ce744ae134592fa00ac7, type: 3}
       propertyPath: customAnimator
@@ -26575,7 +26575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3679401402006949639, guid: 160f3de817b2ce744ae134592fa00ac7, type: 3}
       propertyPath: talkAnimSprite
-      value: CharTalk
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3679401402006949639, guid: 160f3de817b2ce744ae134592fa00ac7, type: 3}
       propertyPath: textScrollClip

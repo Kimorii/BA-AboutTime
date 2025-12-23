@@ -261,27 +261,27 @@ MonoBehaviour:
   - ID: 0
     label: (Title Screen Music)
     audioClip: {fileID: 8300000, guid: 09de4ae8b2183474db7ab98708d07250, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.175
     overrideMixerGroup: {fileID: 0}
   - ID: 1
     label: (OnStart_Bedroom)
     audioClip: {fileID: 8300000, guid: 937e8b7f949e34f4496a1d496c75cf3e, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.17
     overrideMixerGroup: {fileID: 0}
   - ID: 2
     label: (OnStart_Hallway)
     audioClip: {fileID: 8300000, guid: 15c4292ce39a3fd44a129828d89fd429, type: 3}
-    relativeVolume: 0.8
+    relativeVolume: 0.573
     overrideMixerGroup: {fileID: 0}
   - ID: 3
     label: (OnStart_Myst.Door)
     audioClip: {fileID: 8300000, guid: b2640994297419d49a33692783b5ab51, type: 3}
-    relativeVolume: 0.8
+    relativeVolume: 0.606
     overrideMixerGroup: {fileID: 0}
   - ID: 4
     label: (ENDING)
     audioClip: {fileID: 8300000, guid: 9898beef4edd54ee58d263cec6ef1795, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.692
     overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
@@ -303,8 +303,8 @@ MonoBehaviour:
   defaultLanguage: 0
   defaultVoiceLanguage: 0
   defaultShowSubtitles: 1
-  defaultSfxVolume: 0.852
-  defaultMusicVolume: 0.6
+  defaultSfxVolume: 1
+  defaultMusicVolume: 1
   defaultSpeechVolume: 1
   showDebugLogs: 0
   printActionCommentsInConsole: 0
