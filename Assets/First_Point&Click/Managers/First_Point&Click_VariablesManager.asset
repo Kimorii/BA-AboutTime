@@ -156,7 +156,7 @@ MonoBehaviour:
   - label: FirstMechItemFound
     id: 7
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -176,7 +176,7 @@ MonoBehaviour:
   - label: MechCloseUpSeen
     id: 8
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -436,7 +436,7 @@ MonoBehaviour:
   - label: MystDoorEntered
     id: 21
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}

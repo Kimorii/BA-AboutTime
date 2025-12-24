@@ -762,7 +762,7 @@ MonoBehaviour:
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.06
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
@@ -857,17 +857,17 @@ MonoBehaviour:
     canBeLowerCase: 1
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
-    activeTex: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
-    selectedTex: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
+    tex: {fileID: 2800000, guid: c631588ffd7858d4aa9bd2b78fd33f8d, type: 3}
+    activeTex: {fileID: 2800000, guid: c631588ffd7858d4aa9bd2b78fd33f8d, type: 3}
+    selectedTex: {fileID: 2800000, guid: c631588ffd7858d4aa9bd2b78fd33f8d, type: 3}
     linkedPrefab: {fileID: 0}
     cursorIcon:
-      texture: {fileID: 2800000, guid: f6edabfe32ea9744dba1149ecbd23b18, type: 3}
+      texture: {fileID: 2800000, guid: c631588ffd7858d4aa9bd2b78fd33f8d, type: 3}
       isAnimated: 0
       numFrames: 1
       numRows: 1
       numCols: 1
-      size: 0.04
+      size: 0.06
       animSpeed: 4
       endAnimOnLastFrame: 0
       skipFirstFrameWhenLooping: 0
