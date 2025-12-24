@@ -3372,7 +3372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  title: Button
+  title: Ok-Button
   slotSize: {x: 3.17757, y: 0.8468052}
   sizeType: 0
   positionType: 1
@@ -3398,7 +3398,7 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 395
+    x: 350
     y: 350
     width: 17
     height: 11
@@ -3443,12 +3443,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSource: 1
-  canvas: {fileID: 7937937190919396279, guid: 06e977c3466bf7642bd53d81cc133369, type: 3}
+  canvas: {fileID: 9054022315649902436, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
   canvasAssetKey: 
   canvasID: 0
   rectTransform: {fileID: 7173445343662809168, guid: 34e8bd5484e90154ba3bb09245d022c4, type: 3}
   rectTransformID: 182722
-  uiTransitionType: 0
+  uiTransitionType: 1
   uiPositionType: 0
   _isLocked: 0
   id: 22
@@ -8297,7 +8297,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 182722
+  linkedUiID: 27682
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -8307,7 +8307,7 @@ MonoBehaviour:
     height: 0
   relativePosition: {x: 0, y: 0}
   numSlots: 1
-  uiTextTMP: {fileID: 4601558409146569333, guid: 34e8bd5484e90154ba3bb09245d022c4, type: 3}
+  uiTextTMP: {fileID: 1218100506985685160, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
   hideScrollingCharacters: 0
   uiText: {fileID: 4441433185848461909, guid: 34e8bd5484e90154ba3bb09245d022c4, type: 3}
   _label: 
