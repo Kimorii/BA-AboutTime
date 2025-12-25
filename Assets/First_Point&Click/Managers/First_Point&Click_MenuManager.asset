@@ -3453,7 +3453,7 @@ MonoBehaviour:
   rectTransformID: 182722
   uiTransitionType: 1
   uiPositionType: 0
-  _isLocked: 0
+  _isLocked: 1
   id: 22
   title: Your Time
   manualSize: {x: 0, y: 0}
