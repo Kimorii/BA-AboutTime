@@ -117,7 +117,7 @@ MonoBehaviour:
   - label: Flask
     id: 3
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -226,7 +226,7 @@ MonoBehaviour:
   - label: Tape
     id: 4
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -642,7 +642,7 @@ MonoBehaviour:
   - label: Hollow Book
     id: 9
     altLabel: Suspicious Book
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -743,7 +743,7 @@ MonoBehaviour:
   - label: Carpet piece
     id: 2
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
