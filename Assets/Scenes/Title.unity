@@ -1142,6 +1142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimerUI_Test
       objectReference: {fileID: 0}
+    - target: {fileID: 2180911594828900100, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3075431974606575789, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -656
@@ -1233,6 +1237,14 @@ PrefabInstance:
     - target: {fileID: 6440093869209112290, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.137
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947236088698437178, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661782976963504049, guid: 3531a25a54206444dbeb6ad50a563940, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
