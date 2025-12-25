@@ -33,10 +33,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 271
+    x: 15
+    y: 269
     width: 300
-    height: 207
+    height: 247
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -46,10 +46,10 @@ MonoBehaviour:
   soundObject: {fileID: 0}
   audioClip: {fileID: 0}
   audioClipParameterID: -1
-  fadeTime: 0.6
+  fadeTime: 1.2
   loop: 0
   ignoreIfPlaying: 0
-  soundAction: 2
+  soundAction: 0
   affectChildren: 0
   autoEndOtherMusicWhenPlayed: 1
 --- !u!114 &-3252595364923183963
@@ -270,7 +270,7 @@ MonoBehaviour:
   isDisplayed: 1
   showComment: 0
   comment: 
-  willWait: 0
+  willWait: 1
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}

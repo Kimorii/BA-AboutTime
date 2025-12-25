@@ -154,12 +154,12 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 15
+    skipAction: 14
     skipActionActual: {fileID: 1007258734755232817}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 14
+    skipAction: 13
     skipActionActual: {fileID: 107394247230153933}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -208,49 +208,6 @@ MonoBehaviour:
   vectorCondition: 0
   parameterLabel: Inventory item
   gameObjectCompareType: 0
---- !u!114 &-6172882026640205179
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 1468
-    y: 1611.3002
-    width: 300
-    height: 92
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!114 &-5570546072296068616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -409,9 +366,9 @@ MonoBehaviour:
     skipActionActual: {fileID: -2143588540898108746}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
-  - resultAction: 2
-    skipAction: 17
-    skipActionActual: {fileID: 2668363922128529727}
+  - resultAction: 1
+    skipAction: 16
+    skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -422,7 +379,7 @@ MonoBehaviour:
     x: 3164
     y: 2093
     width: 300
-    height: 202
+    height: 181
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -488,7 +445,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 19
+    skipAction: 17
     skipActionActual: {fileID: -1205643541045875168}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -665,7 +622,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 16
+    skipAction: 15
     skipActionActual: {fileID: 7549988592156705786}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -748,7 +705,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 18
+    skipAction: 16
     skipActionActual: {fileID: -4522776197368408076}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -822,15 +779,12 @@ MonoBehaviour:
   - {fileID: 5921011516570904326}
   - {fileID: 3745784750241080356}
   - {fileID: -5570546072296068616}
-  - {fileID: 923975086174233112}
   - {fileID: -4933297364446677830}
   - {fileID: 107394247230153933}
   - {fileID: 1007258734755232817}
   - {fileID: 7549988592156705786}
-  - {fileID: 2668363922128529727}
   - {fileID: -4522776197368408076}
   - {fileID: -1205643541045875168}
-  - {fileID: 7456150271066083773}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -880,7 +834,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 13
+    skipAction: 12
     skipActionActual: {fileID: -4933297364446677830}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -934,58 +888,6 @@ MonoBehaviour:
   vectorCondition: 0
   parameterLabel: Inventory item
   gameObjectCompareType: 0
---- !u!114 &923975086174233112
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: 21
-    skipActionActual: {fileID: 4022402016722975636}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 1071
-    y: 1268
-    width: 300
-    height: 247
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  constantID: 127540
-  parameterID: -1
-  soundObject: {fileID: 0}
-  audioClip: {fileID: 0}
-  audioClipParameterID: -1
-  fadeTime: 0.6
-  loop: 0
-  ignoreIfPlaying: 0
-  soundAction: 1
-  affectChildren: 0
-  autoEndOtherMusicWhenPlayed: 1
 --- !u!114 &1007258734755232817
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1038,84 +940,6 @@ MonoBehaviour:
   soundAction: 1
   affectChildren: 0
   autoEndOtherMusicWhenPlayed: 1
---- !u!114 &2668363922128529727
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dcc16d550ae64c819b1af073e51b013, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 20
-    skipActionActual: {fileID: 7456150271066083773}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 3514
-    y: 2324
-    width: 300
-    height: 182
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  resultActionTrue: 0
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 0}
-  resultActionFail: 1
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 0}
-  actionListSource: 0
-  actionListAsset: {fileID: 0}
-  actionList: {fileID: 0}
-  actionListConstantID: 0
-  parameterID: 0
-  compareParameterID: -1
-  checkOwn: 1
-  intValue: 0
-  floatValue: 0
-  intCondition: 0
-  stringValue: 
-  compareVariableID: 11
-  compareVariables: {fileID: 0}
-  vector3Value: {x: 0, y: 0, z: 0}
-  compareObject: {fileID: 0}
-  compareObjectConstantID: 0
-  compareUnityObject: {fileID: 0}
-  boolValue: 1
-  boolCondition: 0
-  vectorCondition: 0
-  parameterLabel: Inventory item
-  gameObjectCompareType: 0
 --- !u!114 &3745784750241080356
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1194,49 +1018,6 @@ MonoBehaviour:
   vectorCondition: 0
   parameterLabel: Inventory item
   gameObjectCompareType: 0
---- !u!114 &4022402016722975636
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 1006
-    y: 1218
-    width: 300
-    height: 92
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!114 &5131709864925695665
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1270,15 +1051,15 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1503
-    y: 1390
+    x: 1344
+    y: 1326
     width: 300
-    height: 212
+    height: 247
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   groupID: 0
-  constantID: 0
+  constantID: 179658
   parameterID: -1
   soundObject: {fileID: 0}
   audioClip: {fileID: 0}
@@ -1313,8 +1094,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 12
-    skipActionActual: {fileID: 923975086174233112}
+    skipAction: 8
+    skipActionActual: {fileID: 5131709864925695665}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
@@ -1409,58 +1190,6 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   groupID: 0
   constantID: 177358
-  parameterID: -1
-  soundObject: {fileID: 0}
-  audioClip: {fileID: 0}
-  audioClipParameterID: -1
-  fadeTime: 0.6
-  loop: 0
-  ignoreIfPlaying: 0
-  soundAction: 1
-  affectChildren: 0
-  autoEndOtherMusicWhenPlayed: 1
---- !u!114 &7456150271066083773
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 3514
-    y: 2535
-    width: 300
-    height: 247
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  constantID: 179658
   parameterID: -1
   soundObject: {fileID: 0}
   audioClip: {fileID: 0}

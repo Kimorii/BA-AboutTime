@@ -24,7 +24,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 10
+    skipAction: 9
     skipActionActual: {fileID: 3862879544715625453}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 7
+    skipAction: 6
     skipActionActual: {fileID: 548661661690409772}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -263,7 +263,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 19
+    skipAction: 18
     skipActionActual: {fileID: 6282878183407105645}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -416,7 +416,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 21
+    skipAction: 20
     skipActionActual: {fileID: 8152104204851650647}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -627,8 +627,8 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
-    skipAction: 3
+  - resultAction: 2
+    skipAction: 2
     skipActionActual: {fileID: -1621634774952634988}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -640,7 +640,7 @@ MonoBehaviour:
     x: 14
     y: 216
     width: 300
-    height: 172
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -689,7 +689,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 17
+    skipAction: 16
     skipActionActual: {fileID: -4743135718735348363}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -732,7 +732,6 @@ MonoBehaviour:
   actions:
   - {fileID: -2423626285326409089}
   - {fileID: -1426614489337522425}
-  - {fileID: 8885256987008300716}
   - {fileID: -1621634774952634988}
   - {fileID: -2767360191007349218}
   - {fileID: 6474870173843958669}
@@ -926,7 +925,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 13
+    skipAction: 12
     skipActionActual: {fileID: -1861698927335001553}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -1110,7 +1109,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 22
+    skipAction: 21
     skipActionActual: {fileID: -3876023572121516514}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -1139,49 +1138,3 @@ MonoBehaviour:
   doHotspotHeadTurnLock: 2
   movePath: {fileID: 0}
   lockedPathCanReverse: 0
---- !u!114 &8885256987008300716
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 3
-    skipActionActual: {fileID: -1621634774952634988}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 418
-    width: 300
-    height: 187
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  parameterID: -1
-  constantID: 248960
-  obToAffect: {fileID: 0}
-  affectChildren: 0
-  visState: 1

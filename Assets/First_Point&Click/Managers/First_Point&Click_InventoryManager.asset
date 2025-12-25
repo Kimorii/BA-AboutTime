@@ -117,7 +117,7 @@ MonoBehaviour:
   - label: Flask
     id: 3
     altLabel: 
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -327,7 +327,7 @@ MonoBehaviour:
   - label: '*Thing 1* (dirty)'
     id: 5
     altLabel: Dirty metal plate
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -440,7 +440,7 @@ MonoBehaviour:
   - label: '*Thing 1* (clean)'
     id: 8
     altLabel: Clean metal plate
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -541,7 +541,7 @@ MonoBehaviour:
   - label: '*Thing 2*'
     id: 6
     altLabel: Metal plate
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -642,7 +642,7 @@ MonoBehaviour:
   - label: Hollow Book
     id: 9
     altLabel: Suspicious Book
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -837,6 +837,10 @@ MonoBehaviour:
       idPlusOne: 1
       combineID: 3
       disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: d81182eea740d1e429bf27714b4ec971, type: 2}
+      idPlusOne: 2
+      combineID: 5
+      disabledOnStart: 0
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -941,6 +945,10 @@ MonoBehaviour:
     - actionList: {fileID: 11400000, guid: 306fbb6841b8709418c5b08c7a9366d6, type: 2}
       idPlusOne: 1
       combineID: 5
+      disabledOnStart: 0
+    - actionList: {fileID: 11400000, guid: e615ad697f1b031419154538162d1457, type: 2}
+      idPlusOne: 2
+      combineID: 6
       disabledOnStart: 0
     combineActionList: []
     combineID: 
