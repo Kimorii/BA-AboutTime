@@ -297,8 +297,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 84.39719
-    y: 1403.6914
+    x: 136.30142
+    y: 1741.0684
     width: 300
     height: 167
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -929,8 +929,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 84.39719
-    y: 2014.6907
+    x: 136.30142
+    y: 2352.0686
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1113,8 +1113,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 7.5285645
-    y: 438.2057
+    x: 14
+    y: 715
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1258,8 +1258,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 335
-    y: 176
+    x: 14
+    y: 291
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1319,8 +1319,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 84.39719
-    y: 1600.6914
+    x: 136.30142
+    y: 1938.0684
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1611,8 +1611,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 207
-    y: 339
+    x: 14
+    y: 493
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1902,8 +1902,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 84.39719
-    y: 1817.6912
+    x: 136.30142
+    y: 2155.0686
     width: 300
     height: 167
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2056,55 +2056,55 @@ MonoBehaviour:
   - ID: 1
     rect:
       serializedVersion: 2
-      x: 761.256
-      y: -1032.9038
-      width: 340
-      height: 1155.0005
+      x: 527.99567
+      y: 981.4894
+      width: 235.81888
+      height: 801.09094
     color: {r: 1, g: 1, b: 1, a: 1}
     label: Open book set - Myst. Door
   - ID: 2
     rect:
       serializedVersion: 2
-      x: 64.39719
-      y: -1341.3086
-      width: 340
-      height: 1154.9993
+      x: 44.664917
+      y: 767.5845
+      width: 235.81888
+      height: 801.0901
     color: {r: 1, g: 1, b: 1, a: 1}
     label: Open book set - Bedroom
   - ID: 3
     rect:
       serializedVersion: 2
-      x: 1459.2231
-      y: -1232.083
-      width: 340
-      height: 1134.9995
+      x: 1012.09515
+      y: 843.3417
+      width: 235.81888
+      height: 787.21857
     color: {r: 1, g: 1, b: 1, a: 1}
     label: Open book set - Hallway
   - ID: 4
     rect:
       serializedVersion: 2
-      x: 1502
-      y: -5.083496
-      width: 704.81104
-      height: 2737.273
+      x: 1041.7645
+      y: 1694.37
+      width: 488.8463
+      height: 1898.5312
     color: {r: 1, g: 1, b: 1, a: 1}
     label: Disable all hotspots - Hallway
   - ID: 5
     rect:
       serializedVersion: 2
-      x: 51.528564
-      y: 177.20557
-      width: 735
-      height: 3316.2988
+      x: 35.739437
+      y: 1820.803
+      width: 509.7849
+      height: 2300.1348
     color: {r: 1, g: 1, b: 1, a: 1}
     label: Disable all hotspots - Bedroom
   - ID: 6
     rect:
       serializedVersion: 2
-      x: 828.4549
-      y: 172.16943
-      width: 646.5451
-      height: 2567.73
+      x: 574.6038
+      y: 1817.31
+      width: 448.43393
+      height: 1780.9388
     color: {r: 1, g: 1, b: 1, a: 1}
     label: Disable all hotspots - Myst. Door
   backupData: []
@@ -2287,7 +2287,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   groupID: 0
-  constantID: 368702
+  constantID: 7048
   parameterID: -1
   soundObject: {fileID: 0}
   audioClip: {fileID: 0}
@@ -2652,8 +2652,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 69.528564
-    y: 825.7555
+    x: 14
+    y: 1119
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2943,8 +2943,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 84.39719
-    y: 1126.6914
+    x: 136.30142
+    y: 1464.0684
     width: 300
     height: 247
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3507,8 +3507,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 17.528564
-    y: 649.2057
+    x: 14
+    y: 937
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
