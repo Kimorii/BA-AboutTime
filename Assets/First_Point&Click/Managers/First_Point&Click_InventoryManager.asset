@@ -642,7 +642,7 @@ MonoBehaviour:
   - label: Hollow Book
     id: 9
     altLabel: Suspicious Book
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
