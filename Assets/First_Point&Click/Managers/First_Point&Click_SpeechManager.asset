@@ -66,7 +66,7 @@ MonoBehaviour:
     fallbackLanguageIndex: 0
     isDisabled: 0
   ignoreOriginalText: 0
-  sfxDucking: 0
+  sfxDucking: 0.01
   musicDucking: 0.053
   lipSyncMode: 0
   lipSyncOutput: 0

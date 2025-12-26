@@ -261,12 +261,12 @@ MonoBehaviour:
   - ID: 0
     label: (Title Screen Music)
     audioClip: {fileID: 8300000, guid: 09de4ae8b2183474db7ab98708d07250, type: 3}
-    relativeVolume: 0.299
+    relativeVolume: 0.47
     overrideMixerGroup: {fileID: 0}
   - ID: 1
     label: (OnStart_Bedroom)
     audioClip: {fileID: 8300000, guid: 937e8b7f949e34f4496a1d496c75cf3e, type: 3}
-    relativeVolume: 0.29
+    relativeVolume: 0.435
     overrideMixerGroup: {fileID: 0}
   - ID: 2
     label: (OnStart_Hallway)
@@ -276,12 +276,12 @@ MonoBehaviour:
   - ID: 3
     label: (OnStart_Myst.Door)
     audioClip: {fileID: 8300000, guid: b2640994297419d49a33692783b5ab51, type: 3}
-    relativeVolume: 0.606
+    relativeVolume: 0.598
     overrideMixerGroup: {fileID: 0}
   - ID: 4
     label: (ENDING)
     audioClip: {fileID: 8300000, guid: 9898beef4edd54ee58d263cec6ef1795, type: 3}
-    relativeVolume: 0.692
+    relativeVolume: 0.632
     overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
