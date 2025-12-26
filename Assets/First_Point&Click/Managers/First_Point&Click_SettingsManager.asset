@@ -97,7 +97,7 @@ MonoBehaviour:
   inventoryDisableLeft: 1
   leftClickDeselect: 2
   allowDefaultInventoryInteractions: 0
-  inventoryDisableUnhandled: 0
+  inventoryDisableUnhandled: 1
   inventoryDisableDefined: 1
   inventoryInteractionsHaltPlayer: 1
   activeWhenHover: 0

@@ -153,8 +153,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 326
-    y: 74
+    x: 413
+    y: 86
     width: 300
     height: 175
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
